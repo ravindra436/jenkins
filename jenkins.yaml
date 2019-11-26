@@ -1,0 +1,14 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          id: "Git_ID"
+          password: "AQAAABAAAAAQz6d3yuZT"
+          scope: GLOBAL
+      - usernamePassword:
+          scope: GLOBAL
+          id: "username"
+          username: "some-user"
+          password: "SomeUserPassword" #Load from Environment Variable
+          description: "Username/Password Credentials for some-user"
